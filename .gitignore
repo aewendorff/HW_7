@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore the shapefile folder, files are too large
+Lake_Shapefiles/
