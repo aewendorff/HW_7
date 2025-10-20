@@ -91,8 +91,7 @@ ggplot() +
                          which_north = "true" #points to geographic north pole
                          ) + 
   #Add Labels
-  labs(title = "Overwinter Buoy Locations in Yahara Watershed",
-       x = "Longitude", y = "Latitude") +
+  labs(x = "Longitude", y = "Latitude") +
   #Add bw theme
   theme_bw() +
   
@@ -103,10 +102,6 @@ ggplot() +
         axis.title.y = element_text(size = 13, 
                                   margin = margin(r = 10),
                                   face = "bold"),
-        plot.title = element_text(size = 15, 
-                                  margin = margin(b = 10), 
-                                  face = "bold",
-                                  hjust = 0.5), #centers title
         legend.title = element_text(face = "bold",
                                     hjust = 0.5),
         legend.box.background = element_rect(color = "black", #makes box around legend 
