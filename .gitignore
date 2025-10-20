@@ -5,3 +5,6 @@
 
 # Ignore the shapefile folder, files are too large
 Lake_Shapefiles/
+
+#Ignore rosm.cache/ which stores OSM tiles
+rosm.cache/
